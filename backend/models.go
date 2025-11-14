@@ -18,7 +18,7 @@ type Note struct {
 	UpdatedAt time.Time `json:"updated_at"`
 }
 
-type RegisterRequet struct {
+type RegisterRequest struct {
 	Email string `json:"email"`
 	Password string `json:"password"`
 }	
